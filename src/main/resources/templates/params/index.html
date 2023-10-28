@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Index Request</title>
+	</head>
+<body>
+	
+	
+	<h1 >enviar parámetros</h1>
+	
+	<ul>
+		<li><a th:href="@{/params/string(texto='Saludo')}">/params/string texto='Saludo'</a></li>
+		<li><a th:href="@{/params/string(texto='Bienvenido')}">/params/string texto='Bienvenido'</a></li>
+		
+	</ul>
+	
+
+	
+</body>
+
+</html>
